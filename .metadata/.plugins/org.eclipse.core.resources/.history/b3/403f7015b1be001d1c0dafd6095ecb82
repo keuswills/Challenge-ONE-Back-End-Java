@@ -1,0 +1,9 @@
+package ConversorDeMoedas;
+
+import javax.swing.JOptionPane;
+
+public class Teste {
+
+	String choice = JOptionPane.showInputDialog("Qual conversor gostaria de utilizar?", "Digite Aqui");
+	
+}

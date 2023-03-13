@@ -1,0 +1,12 @@
+package ConversorDeMoedas;
+
+import javax.swing.JOptionPane;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		String choice = JOptionPane.showInputDialog("Qual conversor gostaria de utilizar?", "Conversor de Moedas e Temperaturas", JOptionPane.QUESTION_MESSAGE);
+	}
+	
+	
+}

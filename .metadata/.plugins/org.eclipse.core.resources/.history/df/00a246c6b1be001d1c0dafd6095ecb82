@@ -1,0 +1,18 @@
+package ConversorDeMoedas;
+
+import javax.swing.JOptionPane;
+
+	private String choices2 = "Celsius para Fahrenheit", "Fahrenheit para Celsius";
+
+//private String[] choices1 = { "Real para Dólar", "Real para Euro", "Real para Libras Esterlinas",
+//	"Real para Peso Argentino", "Real para Peso Chileno", "Dólar para Real", "Euro para Real",
+//	"Libras Esterlinas para Real", "Peso Argentino para Real", "Peso Chileno para Real" };
+//
+public class Teste {
+
+	public static void main(String[] args) {
+		String choice = JOptionPane.showInputDialog(null, "Qual conversor gostaria de utilizar?",
+				"Conversor de Moedas e Temperaturas", JOptionPane.QUESTION_MESSAGE);
+	}
+
+}
